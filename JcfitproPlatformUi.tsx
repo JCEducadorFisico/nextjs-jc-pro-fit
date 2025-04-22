@@ -7,7 +7,9 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 export default function JcfitproPlatformUi() {
   return (
     <main className="p-4 max-w-4xl mx-auto">
-      <h1 className="text-3xl font-bold mb-6 text-center text-blue-900">JC FIT PRO</h1>
+      <h1 className="text-3xl font-bold mb-6 text-center text-blue-900">
+        JC FIT PRO
+      </h1>
 
       <Tabs defaultValue="aluno" className="w-full">
         <TabsList className="grid w-full grid-cols-2 mb-4">
@@ -28,7 +30,9 @@ export default function JcfitproPlatformUi() {
           <Card>
             <CardContent className="p-4 space-y-4">
               <h2 className="text-xl font-semibold">Ainda não tem conta?</h2>
-              <Button variant="outline" className="w-full">Criar Conta</Button>
+              <Button variant="outline" className="w-full">
+                Criar Conta
+              </Button>
             </CardContent>
           </Card>
         </TabsContent>
