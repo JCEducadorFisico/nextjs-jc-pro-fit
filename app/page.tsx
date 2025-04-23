@@ -1,6 +1,7 @@
-'use client';
-import React from 'react';
-import App from '../JcfitproPlatformUi';
-export default function Page() {
+"use client";
+
+import App from "../JcfitproPlatformUi";
+
+export default function Home() {
   return <App />;
 }
