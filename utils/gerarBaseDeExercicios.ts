@@ -1,1 +1,3 @@
-export default function gerarBaseDeExercicios() { return []; }
+export const gerarBaseDeExercicios = () => {
+  return ["Agachamento", "Flexão", "Prancha"];
+};
