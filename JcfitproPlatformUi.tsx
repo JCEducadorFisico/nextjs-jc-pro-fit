@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
-export default function App() {
+export default App;
   return (
     <main className="p-4">
       <h1 className="text-2xl font-bold mb-4">JC FIT PRO</h1>
