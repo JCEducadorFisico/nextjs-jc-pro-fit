@@ -1,12 +1,1 @@
-import * as React from "react";
-
-export function Button({ children, className, ...props }: any) {
-  return (
-    <button
-      className={`bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded ${className || ""}`}
-      {...props}
-    >
-      {children}
-    </button>
-  );
-}
+export function Button({ children, ...props }) { return <button className='px-4 py-2 bg-blue-600 text-white rounded' {...props}>{children}</button>; }
