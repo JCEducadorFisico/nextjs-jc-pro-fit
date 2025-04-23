@@ -1,7 +1,7 @@
 'use client';
 
-import JcfitproPlatformUi from '../JcfitproPlatformUi';
+import App from '../JcfitproPlatformUi';
 
-export default function HomePage() {
+export default function Page() {
   return <App />;
 }
