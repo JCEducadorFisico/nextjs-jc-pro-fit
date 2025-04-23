@@ -1,1 +1,5 @@
-export function useGeradorTreino() { return []; }
+export const useGeradorTreino = () => {
+  return {
+    gerar: () => {},
+  };
+};
