@@ -1,1 +1,6 @@
-export function useGraficos() { return []; }
+export const useGraficos = () => {
+  return {
+    dados: [],
+    gerarGrafico: () => {},
+  };
+};
