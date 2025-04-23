@@ -1,1 +1,6 @@
-export function useHistorico() { return []; }
+export const useHistorico = () => {
+  return {
+    historico: [],
+    carregarHistorico: () => {},
+  };
+};
