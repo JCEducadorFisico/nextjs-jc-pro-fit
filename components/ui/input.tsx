@@ -1,1 +1,7 @@
-export function Input(props) { return <input className='border p-2 rounded w-full' {...props} />; }
+// components/ui/Input.tsx
+export const Input = (props: React.InputHTMLAttributes<HTMLInputElement>) => (
+  <input
+    {...props}
+    className="border px-3 py-2 rounded-xl w-full focus:outline-none focus:ring focus:border-blue-300"
+  />
+);
