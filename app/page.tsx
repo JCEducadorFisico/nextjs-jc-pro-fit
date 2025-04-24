@@ -1,6 +1,2 @@
-
-'use client';
-import Aplicativo from '../../JcfitproPlatformUi';
-export default function HomePage() {
-  return <App />;
-}
+import JcfitproPlatformUi from "../../JcfitproPlatformUi";
+export default function Page() { return <JcfitproPlatformUi />; }
