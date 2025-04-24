@@ -1,4 +1,6 @@
-export const ajustesBiomecanicos = {
-  joelho: "Corrigir desalinhamento medial",
-  quadril: "Estabilizar em exercícios unilaterais",
-};
+
+const ajustesBiomecanicos = [
+  { zona: 'lombar', obs: 'Fortalecer região lombar com pranchas' },
+  { zona: 'joelho', obs: 'Evitar exercícios de alto impacto' }
+];
+export default ajustesBiomecanicos;

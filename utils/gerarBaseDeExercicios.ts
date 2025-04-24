@@ -1,3 +1,4 @@
-export const gerarBaseDeExercicios = () => {
-  return ["Agachamento", "Flexão", "Prancha"];
-};
+
+export default function gerarBaseDeExercicios(objetivo) {
+  return [{ nome: 'Agachamento' }, { nome: 'Flexão' }];
+}

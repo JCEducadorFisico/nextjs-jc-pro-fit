@@ -1,5 +1,1 @@
-export const useGeradorTreino = () => {
-  return {
-    gerar: () => {},
-  };
-};
+export function useGeradorTreino(h) { return h[h.length - 1]; }

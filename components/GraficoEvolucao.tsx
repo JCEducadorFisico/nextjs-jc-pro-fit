@@ -1,3 +1,4 @@
-export default function GraficoEvolucao() {
-  return <div>Gráfico de Evolução (em construção)</div>;
+
+export default function GraficoEvolucao({ aluno, dados }) {
+  return <div>Gráfico da evolução de {aluno.nome}</div>;
 }

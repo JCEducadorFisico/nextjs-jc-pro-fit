@@ -1,6 +1,1 @@
-export const useTreinos = () => {
-  return {
-    treinos: [],
-    adicionarTreino: () => {},
-  };
-};
+export function useTreinos(nome) { return []; }
