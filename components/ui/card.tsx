@@ -1,1 +1,6 @@
-export function Card({ children }) { return <div className='p-4 shadow rounded bg-white'>{children}</div>; }
+// components/ui/Card.tsx
+export const Card = ({ children }: { children: React.ReactNode }) => (
+  <div className="rounded-xl border p-4 shadow-md bg-white dark:bg-gray-800">
+    {children}
+  </div>
+);
